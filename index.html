@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM Interaction</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="main-title" style="text-align: center">Welcome to My Page</h1>
+    </header>
+
+    <section>
+      <p id="dynamic-text">This text will change dynamically.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="styled-text">Watch me change style!</p>
+      <button onclick="changeStyle()">Change Style</button>
+    </section>
+
+    <section>
+      <div id="container">
+        <p id="toggle-element">This element can be removed or added.</p>
+      </div>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+    </section>
+
+    <section>
+      <p id="update-date">Date will show here.</p>
+      <button onclick="updateDate()">Show Current Date</button>
+    </section>
+
+    <section>
+      <p id="hover-text">Hover over me!</p>
+    </section>
+
+    <footer>
+      <p style="text-align: center">© 2025 Olubabadee Dom Manipulatoin Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
